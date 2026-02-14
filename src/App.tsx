@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Task, EnergyLevel, AppData } from './TaskManager/types';
 import { loadData, saveData, clearAllData, exportData } from './TaskManager/storage';
 import EnergySelector from './TaskManager/EnergySelector';
